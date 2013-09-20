@@ -1,0 +1,479 @@
+.SA 1
+
+.S -2
+.B
+Professional Profile
+.R
+.PS
+line right 6.5i 
+.PE
+.S P
+
+.B
+.nf
+.S +7
+Craig Ludington
+.S P
+.S +4
+2446 N. Albany Avenue
+Chicago, Illinois 60647
+(773) 627-2020
+craig.ludington@rimpoche.chi.il.us
+.S P
+.fi
+.R
+
+.VL 18
+.LI Summary
+Systems, applications, and network programming on a variety of platforms.
+Strong Unix, Ruby, Common Lisp, C++ and  C background.
+Excellent analytical and design skills.
+Experienced in all phases of software development life-cycle.
+
+.LE
+
+.SP 2
+.S -2
+.B
+Qualifications
+.R
+.PS
+line right 6.5i
+.PE
+.S P
+
+.VL 18
+.LI "Operating Systems:"
+Unix (Solaris, Sys V, HP-UX, OSF1, SunOS, Linux, BSDI), OS/2, DOS
+.LI "Languages:"
+Ruby, Common Lisp, C++, C, SQL, TCL/TK, Lex, Yacc, Awk, Korn & Bourne shells, Perl, Bash, Python
+.LI "Hardware:"
+DEC Alpha, HP 9000 Model 800/700/400, Sun, Intel 80x86, AT&T 3B Series, AS/400
+.LE
+
+.SP 2
+.S -2
+.B
+Experience
+.R
+.PS
+line right 6.5i
+.PE
+.S P
+
+.nf
+.B
+Enova Financial
+Chicago Illinois
+July 2008 \(em
+Present
+.R
+.fi
+
+.P
+Senior software engineer for an on-line lender's public-facing web site. 
+Software was written in Ruby on Rails.
+Implemented credit-models, fraud detection strategies, and a new product line in an international market.
+Specified and coded an API for third-party agents to use in selling our service to their customers.
+
+
+.nf
+.B
+onShore Development
+Chicago Illinois
+June 2002 \(em
+March 2007
+.R
+.fi
+
+.P
+Developed WebCheckout, a web-based resource scheduling and inventory
+management application written in Common Lisp.  The application, first
+developed for the School of the Art Institute, is now deployed at
+almost a hundred universities, including some of the better known film
+schools in the country.
+.P
+I was hired to integrate WebCheckout with the University of Southern
+California's CinApps application, providing for an exchange of
+scheduling and financial data between the two applications.
+.P
+After completing that task, I was hired on as a developer, maintaining
+and adding new features to the application.  Responsibilities
+encompassed daily contact with clients, programming in Common Lisp,
+Java, and Unix shell, design, coding and testing.
+.P
+In 2006 I was promoted to director of technology services, managing
+the development and technical support staff.  My first goal was to
+stabilize the product.  This was achieved by careful configuration
+management, a feature-based release cycle, and adding a full-time
+software tester.  Within six months, our customers were actually eager
+to accept new software releases, something which they'd actively
+resisted in the past.
+
+.nf
+.B
+ABN Amro
+Chicago Illinois
+December 1999 \(em
+December 2001
+.R
+.fi
+
+.P
+Completed multiple projects during a contract that lasted over 24 months.
+Two projects were ports of C++ software
+(one porting to a different class library,
+another porting from a C-Front based compiler to an Ansi C++ compiler).
+Another project involved architecting and data modelling for a system
+for pricing a set of idealized representative trades daily and presenting
+web reports to the financial analysts.
+Another project required extensive Korn shell scripting, integrating third-party
+tools and a Sybase database.
+.P
+Most of the software was written using a mixed-language paradigm,
+with a combination of C++, TCL, Java, Perl, Python and Orbix CORBA.
+
+.nf
+.B
+CCC Information Services Inc.
+Chicago Illinois
+July 1999 \(em
+November 1999
+.R
+.fi
+
+.P
+Developed internet applications for a company providing
+information services to the automobile insurance industry.
+The development environment consisted of a combination
+of C++ and Perl programming with Sybase and RedBrick database
+servers on a heterogeneous network of Unix, NT, and mainframe
+computers, using MQ Series middleware.
+
+.nf
+.B
+ABN Amro
+Chicago Illinois
+March 1999 \(em
+July 1999
+.R
+.fi
+
+.P
+Maintained and enhanced a suite of intranet applications
+for an international bank.
+Responsible for developing and testing cgi applications,
+web server and database administration, on Linux and AIX
+using Apache and Mysql.
+.P
+Configured and installed a high availability Unix server 
+using the Linux operating system with Raid-5.
+.P
+Enhanced and debugged Freetds (an open source implementation
+of the proprietary TDS protocol) to enable database connectivity
+between the Mysql database on Unix and the SQL Server database
+on Windows NT.
+
+.nf
+.B
+WebPromote Inc.
+Vernon Hills Illinois
+October 1998 \(em
+March 1999
+.R
+.fi
+
+Designed and implemented a mail agent capable of processing mailing lists
+stored in an Oracle database.
+The agent, running as a daemon, handles requests for processing bulk mail lists,
+and concurrently speaks SMTP to multiple hosts running sendmail.
+Each conversation is represented by a discrete finite state machine.
+.P
+Wrote various CGI programs in Perl, using DBD::Oracle for database connectivity.
+
+.nf
+.B
+First Chicago Bank
+Chicago Illinois
+March 1998 \(em
+September 1998
+.R
+.fi
+
+Converted a Btrieve database used on a MS-DOS platform to an Oracle
+relational database on Solaris.
+The code was written in C++ and SQL.
+.P
+Created a network communications library for transferring structured data
+between MS-DOS and Solaris platforms using sockets and TCP/IP.
+The library was used for updating an Oracle database with data received 
+over a serial connection to the MS-DOS machines.
+
+.nf
+.B
+onShore Consulting
+Chicago Illinois
+February 1998 \(em
+March 1998
+.R
+.fi
+
+Developed a web security administration system for Motorola.
+A set of CGI scripts generated HTML forms that allowed administrators to
+manage document control by user and group.
+Each user belonged to one or more groups,
+and the CGI scripts enabled:
+.BL
+.LI
+Creating, deleting or modifying entries in the user password file.
+.LI
+Creating, deleting or modifying entries in the group file.
+.LI
+Creating document categories that specified access by group.
+.LE
+The result was that a set of documents could be searched or browsed over the web with granular control over who could see which documents.
+The code was developed in Perl.
+
+.nf
+.B
+Open Port Technology Inc.
+Chicago Illinois
+January 1997 \(em
+October 1997
+.R
+.fi
+
+.P
+Developed an award-winning internet fax system for UUNET Technologies, Inc.
+The system delivers single-destination or broadcast faxes over a combination
+of TCP/IP and public switched telephone networks using least-cost-routing.
+Faxes originate at a fax machine or desktop computer and are delivered
+to fax machines or electronic mailboxes.
+The system architecture is intensely distributed, using sockets for
+inter-process communication.
+.P
+Responsibilities encompassed the design and implementation of library code
+including:
+.BL
+.LI
+A multiplexing library for servicing concurrent sockets connections reliably.
+.LI
+A library for type-safe status messaging.
+.LI
+.I UFSDB
+\(em tree-structured storage based on the Unix file system.
+.LE
+
+
+.nf
+.B
+Blue Cross Blue Shield of Illinois
+Chicago Illinois
+August 1996 \(em
+January 1997
+.R
+.fi
+
+.P
+Designed and implemented an Electronic Data Interchange system for Sun Solaris.
+The system receives ANSI ASC X12 and other files over a serial connection,
+and routes them to the appropriate MVS processing system. 
+The files are parsed, tokenized, and stored in an Oracle database so that
+some data validation can be performed before transferring them to a 
+mainframe for processing as health insurance claims.
+Responses from the mainframe are stored and forwarded to the appropriate
+health care provider.
+.P
+The system was written in SQL and Perl.
+A user interface for the use of the support staff was written in standard HTML.
+
+.nf
+.B
+Metropolitan Fiber Systems
+Oakbrook Terrace, Illinois
+March 1996 \(em
+August 1996
+.R
+.fi
+
+.P
+Wrote a database conversion program in C++. 
+This program parsed undocumented internal data files of the SPS\(tm
+database, and merged/purged two dissimilar database formats into one
+database.
+The program supported Metropolitan Fiber Systems' acquisition of another
+telecommunications company.
+.P
+Created an EDI system in ksh using NDM\(tm to transfer orders from external
+clients to the MFS order processing system.
+The system received orders and returned firm order commitments over a
+leased line.
+.P
+Wrote software to create faxes from firm order commitment (FOC) reports.
+The software accepted FOCs generated by the order processing system,
+and using data queried from a Sybase database, created troff output,
+which was converted to Postscript\(tm and sent to a fax program for
+delivery.
+
+.nf
+.B
+PRC Public Sector \(em Chicago 911 Project
+Chicago, Illinois
+January 1995 \(em
+February 1996
+.R
+.fi
+
+.P
+Developed RF communications software for five different types of
+hand-held computers equipped with 
+radio packet modems for the Chicago Police Department.
+Developed RF communications software with integrated global-positioning
+system reporting for the Chicago Fire Department.
+The RF network was a Motorola private radio network using the RDLAP protocol.
+Software was written in C++ using Nettech RFMLib 2.5.
+
+.nf
+.B
+Motorola \(em Cellular Infrastructure Group
+Arlington Heights, Illinois
+June 1994 \(em
+January 1995
+.R
+.fi
+
+.P
+Worked with a tools team chartered to develop software for systems engineers
+in a cellular telephony environment.
+Software was developed in C++, C and Informix SQL.
+Responsibilities encompassed the design and implementation of software tools,
+and administration of the development environment:
+
+.BL
+.LI
+Designed and coded a user-programmable SQL report engine in C++ and Informix.
+.LI
+Developed an emulator for the EMX 2500 switch's translator, using C and Informix
+.
+.LI
+Managed revision control system, make files, and product release system.
+.LE
+
+.P
+The SQL report engine was the anchor for a Command Script Generator (CSG) that
+queried a set of relational database tables, emitting commands to 
+initialize the Managed Information Base (MIB) for a digital cellular telephone
+system.
+The engine was designed to be completely user-configurable, allowing 
+arbitrarily complex queries to be formulated and output in a user-defined
+format.
+This tool was used successfully in December 1994 to set up systems in
+Seattle, and Los Angeles.
+
+.nf
+.B
+System Software Associates,
+Chicago, Illinois
+September 1992 \(em
+June 1994
+.R
+.fi
+
+.P
+Ported Business Planning and Control System (BPCS) to HP-9000 architecture.
+BPCS, the company's major product, is a large manufacturing software package
+written for the IBM AS/400 in RPG and DDS.
+The port was done by creating cross-compilers, 
+developed on Unix,
+for the RPG and DDS languages.
+The compilers converted RPG and DDS sources into ANSI C code that runs on
+HP-UX Unix.
+.P
+As technical lead for the DDS compiler:
+.BL
+.LI
+Supervised staff and contract programmers.
+.LI
+Hand-coded lexical analyzer in C.
+.LI
+Designed a BNF grammar for the DDS language.
+.LI
+Implemented DDS language parser in yacc.
+.LI
+Coded external symbol reference resolver in C with embedded SQL.
+.LI
+Designed and coded an AS/400 emulator library to run on Unix.
+.LI
+Developed a full-featured list management library.
+.LI
+Documented library functions in man page format.
+.LE
+
+.P
+Also performed systems administrative tasks:
+.BL
+.LI
+Installed and maintained RCS version control system
+.LI
+Administered Ethernet TCP/IP network
+.LI
+Installed and configured the Linux operating system for networked PCs
+.LE
+
+
+.nf
+.B
+Policy Management Systems Corporation,
+Columbia SC
+January 1991 \(em
+September 1992
+.R
+.fi
+
+.P
+Developed and maintained a cooperative processing application written in
+C, embedded SQL and the Presentation Manager windows API.
+Interpreted business needs and designed and implemented modifications to
+a 200,000 line application which ran under OS/2 and PM, and interfaced with
+a DB2 server under OS/MVS.
+.P
+Involved in complete software development life cycle, from initial design
+meetings with client through coding and post-delivery maintenance.
+
+.BL
+.LI
+Provided technical support for client \(em systems-analyst design sessions
+.LI
+Developed a finite-state machine dialog procedure controller,
+adopted as a company-wide template for complex, rule-driven dialogs
+.LI
+Designed and implemented a version control system in C
+.LI
+Wrote a Korn-like shell for OS/2 which supported command line history, aliasing,
+and command substitution
+.LE
+
+.B
+.nf
+Consultant/Developer
+Columbia SC
+March 1989 \(em
+January 1991
+.R
+.fi
+
+.P
+Developed applications for service and retail business clients.
+The software was written in C using the C-Worthy screen library and 
+ISAM routines.  Applications included the following:
+
+.BL
+.LI
+Customer and order entry application
+.LI
+Labor cost accounting system tracking hourly labor charges
+.LI
+Payroll application interfacing with labor cost accounting
+.LI
+Patient database and mailing list manager for Miracle Ear
+.LE

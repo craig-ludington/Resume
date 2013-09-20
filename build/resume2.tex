@@ -1,0 +1,140 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Craig B. Ludington\\[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{{\bf Home Address} \\ 2446 North Albany Avenue \\ Chicago, IL 60647-2602  \\
+        (773) 627-2020 }
+\address{{\bf Email Address} \\ craig.ludington@rimpoche.chi.il.us }
+
+ 
+\begin{resume} 
+ 
+\section{Summary} 
+Systems, applications, and network programming on a variety of platforms.
+Strong Unix, Ruby, Common Lisp, C++ and  C background.
+Excellent analytical and design skills.
+Experienced in all phases of software development life-cycle.
+
+\section{Computer \\ Skills}
+   \begin{tabular}{l p{3in}}
+    \underline{Languages:} & Ruby, Common Lisp, C++, C, SQL, TCL/TK, Lex, Yacc, Awk, Korn and Bourne shells, Perl, Bash, Python \\
+     \underline{Operating Systems:} & Unix (Solaris, Sys V, HP-UX, OSF1, SunOS, Linux, BSDI), OS/2, DOS
+ \end{tabular}
+
+\section{Experience}
+ {\bf Senior Software Engineer,} Enova Financial, Chicago, IL \hfill 6/2008 - Present
+\begin{itemize} \itemsep -2pt 
+\item Developed software in Ruby on Rails for an on-line lender's public-facing web site. 
+\item Implemented credit-models, fraud detection strategies, and helped creaste a new product line in an international market.
+\item Specified and coded an API for third-party selling our service.
+\end{itemize}
+
+
+ {\bf Director of Technology,} onShore Development, Chicago, IL \hfill 6/2002 - 3/2007
+\begin{itemize} \itemsep -2pt 
+\item Directed development and customer support for the flagship product, a web-based resource scheduling application written in Common Lisp.
+\item Responded to customer requests for stability by coalescing the customizations for nearly a hundred installations into a single three-month release cycle.
+\item Architected and developed a Lisp web framework that gave rise to two new product lines.
+\end{itemize}
+
+ {\bf Consultant,} ABN/Amro, Chicago, IL \hfill 12/1999 - 12/2001
+\begin{itemize} \itemsep -2pt 
+\item Ported two large C++ systems, one to a different financial class library, another from a C-Front based compiler to an ANSI compiler.
+\item Architected and data-modeled a system for daily pricing a set of idealized representative trades.
+\item Wrote software in C++, TCL, Java, Perl and Python.
+\end{itemize}
+
+ {\bf Consultant,} CCC Information Services Inc, Chicago, IL \hfill 7/1999 - 11/1999
+\begin{itemize} \itemsep -2pt 
+\item Developed internet applications for the automobile insurance industry.
+\item Wrote software in C++ and Perl using Sybase and RedBrick databases and MQ Series middleware.
+\end{itemize}
+
+ {\bf Consultant,} ABN/Amro, Chicago, IL \hfill 3/1999 - 7/1999
+\begin{itemize} \itemsep -2pt 
+\item Wrote lots of intranet applications on Linux and AIX with Perl and MySql.
+\item Enhanced Freetds (open source implementation of the proprietary TDS protocol) so a MySql database on Linux could talk to a SQL Server database on Windows NT.
+\end{itemize}
+
+
+ {\bf Consultant,} WebPromote Inc, Vernon Hills, IL \hfill 10/1998 - 3/1999
+\begin{itemize} \itemsep -2pt 
+\item Implemented a mail transfer agent in C for processing bulk mail lists based on a finite state machine representing multiple concurrent network conversations.
+\end{itemize}
+
+ {\bf Consultant,} First Chicago Bank, Chicago, IL \hfill 3/1998 - 9/1998
+\begin{itemize} \itemsep -2pt 
+\item Converted a Btrieve database on MS-DOS to Oracle on Solaris using C++, SQL, and some creative reverse-engineering.
+\item Created a network library for MS-DOS for moving structured data back and forth between DOS and Solaris.
+\end{itemize}
+
+
+{\bf Consultant,} onShore Consulting, Chicago, IL \hfill 2/1998 - 3/1998
+\begin{itemize} \itemsep -2pt 
+\item Developed a web security administration system for onShore's client, Motorola.
+\item The Perl CGI software gave administrators document access control at a per-user or per-group per-document level.
+\end{itemize}
+
+{\bf Consultant,} Open Port Technology Inc., Chicago, IL \hfill 1/1997 - 10/1997
+\begin{itemize} \itemsep -2pt 
+\item Developed software to send faxes in volume over the internet or telephony with a least-cost routing algorithm.
+\item A team of five delivered a five million dollar product in six months (sold to, and paid for by, UUNET).
+\item Designed and implemented the core multiplexing protocol library.
+\item Implemented a high-performance trie database for storing faxes.
+\end{itemize}
+
+{\bf Consultant,} Blue Cross Blue Shield, Chicago, IL \hfill 8/1996 - 1/1997
+\begin{itemize} \itemsep -2pt 
+\item Designed an EDI system for receiving doctor's reports and routing to an MVS system.
+\end{itemize}
+
+{\bf Consultant,} Metropolitan Fiber, Oakbrook Terrace, IL \hfill 3/1996 - 8/1996
+\begin{itemize} \itemsep -2pt 
+\item Wrote a database conversion in C++.
+\item Wrote software to transfer orders via NDM to and from other phone companies.
+\end{itemize}
+
+{\bf Consultant,} PRC Public Sector, Chicago, IL \hfill 1/1995 - 21996
+\begin{itemize} \itemsep -2pt 
+\item Developed RF communications software for portable equipment for the Chicago police and fire departments.
+\end{itemize}
+
+{\bf Consultant,} Motorola Cellular Infrastructure Group, Arlington Heights, IL \hfill 6/1994 - 1/1995
+\begin{itemize} \itemsep -2pt 
+\item Developed tools for cellular telephony engineers in C++ with Informix.
+\end{itemize}
+
+{\bf Programmer,} System Software Associates, Chicago, IL \hfill 9/1992 - 6/1994
+\begin{itemize} \itemsep -2pt 
+\item Part of a small team that ported AS/400 RPG and DDS software to HP-UX, writing a compiler with and Yacc that emitted ANSI C.
+\item Hand-rolled the lexical analyzer in C (Lex doesn't help with columnar programming languages).
+\end{itemize}
+
+{\bf Programmer,} Policy Management Systems Corporation, Columbia, SC \hfill 1/1991 - 9/1992
+\begin{itemize} \itemsep -2pt 
+\item C programmer in OS/2 with Presentation Manager.
+\end{itemize}
+
+\section{Interests}
+\begin{itemize} \itemsep -2pt 
+\item Year-round bike commuter -- also enjoy an occasional 100 to 150 mile ride.
+\item Musician, serious about clarinet, also play violin and cello.
+\item Design, build, and upholster furniture at a master level.
+\item Enjoy chess.
+\end{itemize}
+
+
+\end{resume} 
+\end{document} 
+
+
+
