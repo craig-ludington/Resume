@@ -1,0 +1,1 @@
+latex resume.2015.tex && dvipdf resume.2015.dvi
