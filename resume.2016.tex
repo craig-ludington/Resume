@@ -1,0 +1,80 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Craig B. Ludington\\[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{{\bf Home Address} \\ 2446 North Albany Avenue \\ Chicago, IL 60647-2602  \\
+        (773) 627-2020 }
+\address{{\bf Email Address} \\ me@clojure.us }
+
+ 
+\begin{resume} 
+ 
+\section{Summary} 
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item Abstracter, simplifier, cutter of Gordian knots
+\item Programmer of Clojure, Clojurescript, Ethereum, Go, Common Lisp, Ruby, C++, C, Bash and elisp (and several other languages)
+\item Unix proselytizer (Linux, Solaris, HP-UX, AIX, OS X)
+\item Database-proficient (PostgreSQL, Oracle, Informix, MySQL)
+\item Unix shell expert
+\item Emacs expert
+\end{itemize}
+
+\section{Experience}
+
+ {\bf Developer,} A Chicago financial company \hfill Present
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item Developed a blockchain payments system with Clojure, Clojurescript, and Ethereum smart contractsﬂ
+\end{itemize}
+
+
+ {\bf Developer,} Nelson Cash, Chicago, IL \hfill March 2014 - July 2015
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item Conceived, developed, and delivered a product that was sold to a major player in the network search field. (Clojure, Clojurescript, and Go)
+\item Led a team of four developers and one designer.
+\item Designed and implemented copy-fitting software that generated a distinct logo for each of 28,531 US cities. (Clojure, targeting SVG)
+\item Implemented the backend for a social website for advertising agencies to share case studies with clients and other agencies.  (Clojure, Appengine datastore and blobstore)
+\end{itemize}
+
+ {\bf Senior software engineer,} Enova Financial, Chicago, IL \hfill July 2008 - March 2014
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item Clojure data storage system let us move terabytes of binary large objects out of the PostgreSQL database.
+\item ActiveRecord ``Archivable'' Ruby module made the data in the Clojure system just another readable/writable attribute.
+\item Completed and released large and small projects in Ruby on Rails for the company's primary public-facing web site.
+\item Implemented credit models, fraud detection strategies, new product lines for the company's lending platform backend.
+\end{itemize}
+
+
+ {\bf Director of Technology Services,} onShore Development, Chicago, IL \hfill June 2002 - March 2007
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item Primary product is a Common Lisp scheduling and resource lending system for higher education (especially film schools).
+\item Managed programmers, quality assurance team and technical support staff.
+\item Matured an existing system and created a new product line.
+\item Delighted customers at over a hundred schools across the company.
+\end{itemize}
+
+ {\bf Consultant} \hfill 1996 - 2002
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item Served clients in telecommunications, manufacturing, web services, insurance, and software as a product, or software as a service.
+\end{itemize}
+
+\section{Sample Consulting Projects}
+\begin{itemize} \itemsep -2pt % reduce space between items
+\item Wrote a Mail Transfer Agent (MTA) (implemented outbound mail only, could handle MAX\_FD concurrent connections).
+\item Implemented a compiler for RPG, an AS/400 language we were porting to HPUX.  I wrote the lexical analyzer in C.
+\item Created a library and framework for interprocess communication in a fax delivery system for UUNET. Also C.
+\item Filesystem-based database system for storing telephone numbers and metadata.  It was essentially a trie data structure of directories and files.  Written in C.
+\end{itemize}
+\end{resume}
+\end{document} 
+
+
+
