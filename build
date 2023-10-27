@@ -1,1 +1,3 @@
-latex resume.2023.tex && dvipdf resume.2023.dvi && rm *.dvi *.log
+YEAR=2023
+latex resume.${YEAR}.tex && dvipdf resume.${YEAR}.dvi && rm -f *.dvi *.log
+
